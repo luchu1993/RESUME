@@ -1,4 +1,4 @@
-﻿\LoadClassWithOptions{article}
+\LoadClassWithOptions{article}
 
 % Set page margins to 1 inch
 \usepackage{geometry}
