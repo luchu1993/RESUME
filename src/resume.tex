@@ -1,4 +1,4 @@
-\documentclass{resume}
+﻿\documentclass{resume}
 
 \usepackage{ctex}
 \usepackage{float}
@@ -18,97 +18,89 @@
 \begin{table}[H]
 	\centering
 	\begin{tabularx}{\textwidth}{X X X}
-		\textbf{Electrical Equipment} & \textbf{Programming Languages} & \textbf{Software} \\
+         \textbf{编程语言} & \textbf{软件}  & \textbf{机器学习}\\
 		\begin{itemize}
-			\item Oscilloscope
-			\item Signal Generator
-			\item Multimeter
-			\item Soldering Iron
-			\item Perfboard/breadboard
-		\end{itemize} &
-		\begin{itemize}
-			\item C
-			\item Java
-			\item JavaScript
+			\item C/C++
 			\item Python
 			\item Qt/QML
-			\item C\#
-			\item MATLAB
 		\end{itemize} &
 		\begin{itemize}
-			\item SOLIDWORKS
-			\item Inventor
-			\item EAGLE
+			\item Latex 
 			\item Git
-			\item Linux (multiple distros)
-		\end{itemize}
+			\item Linux/MacOS
+		\end{itemize} &
+        \begin{itemize}
+            \item pytorch
+            \item Tensorflow/Keras
+            \item sklearn
+        \end{itemize}
 	\end{tabularx}
 \end{table}
 \vspace{-4em} % Ugly hack for spacing
-\CoopStatus
+\Education
 
-\CoopStatusFormat{Mechanical Engineering}{3}{May, 2020}{0}{4 or 8}{January, 2018}
+\School{华东师范大学\ \ \ \ 计算机科学与软件工程学院}{2019年7月}{硕士 -- 密码与网络安全}
+\School{常熟理工学院\ \ \ \ 计算机科学与工程学院}{2015年7月}{本科 -- 物联网工程}
+
 
 \TechnicalProjects
-
-\TechnicalProject{Custom 3D Printer}{December 2016 -- Present}
+%----------------科研项目---------------------------
+\TechnicalProject{面向用户属性的弱口令猜测技术}{2017年11月 -- 现在}
 \begin{itemize}
-	\item Lead a team of 5 in building an i3 based 3D printer
-	\item Designed custom mounting solutions to enable compatibility with readily availible parts
-	\item Added a servo actuated pen to the printhead, allowing for multicolor prints without swapping filaments
+	\item 分析了传统口令攻击算法(PCFG与Markov)的缺陷和不足
+	\item 提出了一种基于深度循环神经网络(RNN)的一种弱口令猜测方法
+    \item 结合用户群组属性，提出一种条件式的RNN的定向弱口令猜测技术
+    \item 在Rockyou, CSDN, 12306等泄露口令集上进行相关实验，对比和分析实验结果
 \end{itemize}
 
-\TechnicalProject{Electric Locomotive Prototype}{January 2018}
+\TechnicalProject{基于生成式对抗网络的协议重构}{2017年9月 -- 2017年10月}
 \begin{itemize}
-	\item Working with a group of 6 other students, worked through a formal engineering design process to build a scale train for class wide competition
-	\item Implemented an optical encoder system to allow the train to be aware of its position along the track, allowing the full power output of the motors to be utilized on straightaways
+	\item 分析了雾计算(Fog Computing)场景下工控协议重构的必要性
+	\item 将工控协议转换成灰度图像，分析协议特性
+	\item 使用深度卷积生成式对抗网络(DCGAN)实现工控协议的构建
 \end{itemize}
 
-\TechnicalProject{Offline Transit App}{June 2017 -- Present}
+\TechnicalProject{基于对抗样本技术的恶意软件检测攻击方法} {2017年4月 -- 2017年8月}
 \begin{itemize}
-	\item Wrote a Python script to scrape the Translink API for every bus stop and corresponding routes into an SQLite database
-	\item Built an Android app using the database that shows the user nearby bus stops with buttons to query individual bus times
-\end{itemize}
-
-\TechnicalProject{Automated Quoting Service Prototype}{October 2017 -- Present}
-\begin{itemize}
-	\item Wrote a Python program that would automatically generate price quotes whenever a user submitted a job to UBC Rapid's printing service, reducing quote times from up to 48 hours down to 10 minutes.
-	\item Leveraged multiple Google APIs to access Google Forms data.
+	\item 分析了深度学习以及传统机器学习中面临的对抗样本的问题
+	\item 提出了一种基于遗传算法(Genetic Algorithm)高效寻找对抗样本的技术
+    \item 在恶意恶意PDF文件检测系统进行相关的实验和分析
 \end{itemize}
 
 \StudentTeams
-
-\StudentTeam{\href{http://ubc-rapid.com/}{UBC Rapid}}{October 2016 -- Present}
+\StudentTeam{计算机科学与软件工程学院研究生会部长}{2017年7月 -- 现在}
 \begin{itemize}
-	\item Team specializing in advancing rapid prototyping technologies, especially 3D printing
+	\item 组织研会活动的宣传和策划工作
 	\item Currently running cheapest 3D printing service on campus
+\end{itemize}
+
+\StudentTeam{本科生程序设计课程助教}{2017年9月 -- 2018年1月}
+\begin{itemize}
+    \item 参与本科生计算机程序设计课程的助教工作
+    \item 协助主讲老师完成同学答疑工作
 \end{itemize}
 
 \OtherWorkExperience
 
-\Job{Hamilton Kumon (Richmond, BC)}{September, 2015 -- February, 2016}{Tutor/Marker}
+\Job{上海先锋商泰电子技术有限公司}{2015年1月 -- 2015年7月}{软件开发}
 \begin{itemize}
-	\item Created a personal system to mark students' worksheets in an efficient manner
-	\item Taught children mathematics and English at various levels in a friendly way that encouraged self-growth
+	\item 参与车载电子系统的嵌入式软件的开发
+	\item 维护相关文档，学习使用QML技术
 \end{itemize}
 
-\VolunteerWorkExperience
-
-\Job{Richmond 19\textsuperscript{th}}{September, 2012 -- Present}{Scout Leader}
+\Job{苏州C2Fun网络科技有限公司}{2015年9月 -- 2016年3月}{游戏开发}
 \begin{itemize}
-	\item Plan and run engaging programs every week for youth aged 8-10
-	\item Teach survival and life skills at camping trips, fostering an appreciation for the outdoors.
+	\item 参与手游《真三国无双》的开发工作
+	\item 参与公司游戏引擎的优化与开发
 \end{itemize}
 
-\Education
-
-\School{The University of British Columbia}{Expected May 2021}{Bachelor of Applied Science -- Mechanical Engineering}
 
 \Intrests
 
 \begin{itemize}
-	\item Billiards -- summer leagues
-	\item Sports -- Ultimate Frisbee, snowboarding
+	\item 读书 -- 喜欢王小波的作品《黄金时代》，余华的《活着》，以及张悦然的《茧》
+	\item 算法 -- 喜欢研究机器学习，喜欢读Bishop的经典书籍《PRML》，分享了自己的读书笔记，请参阅我的github
+    \item 运动 -- 乒乓球、羽毛球
 \end{itemize}
 
 \end{document}

@@ -1,4 +1,4 @@
-\LoadClassWithOptions{article}
+﻿\LoadClassWithOptions{article}
 
 % Set page margins to 1 inch
 \usepackage{geometry}
@@ -56,11 +56,9 @@
 	\rhead{
 		\resizebox{0.53\textwidth}{!}{
 			\color{ubcblue}
-			\begin{tabular}{l l}
-				Engineering Co-op Program & Phone (604) 822-3022 \\
-				Faculty of Applied Science & Fax (604) 822-3449 \\
-				2385 East Mall & \href{mailto:eng.coop@ubc.ca}{eng.coop@ubc.ca} \\
-				Vancouver, BC Canada V6T 1Z4 & \url{www.ubcengineeringcoop.com}
+			\begin{tabular}{c l}
+				SCHOOL OF COMPUTER SCIENCE  & Tel (008621) 62232550 \\
+				AND SOFTWARE ENGINEERING & Fax (008621) 62232584 \\
 			\end{tabular}
 		}
 	}
@@ -128,7 +126,7 @@
 	\noindent\rule{\textwidth}{\secline}
 }
 \newcommand{\TechnicalProjects}{
-	\section{Technical Projects}
+	\section{科研项目}
 	\noindent\rule{\textwidth}{\secline}
 }
 \newcommand{\OtherWorkExperience}{
@@ -152,7 +150,7 @@
 	\noindent\rule{\textwidth}{\secline}
 }
 \newcommand{\StudentTeams}{
-	\section{Student Teams}
+	\section{校内实践}
 	\noindent\rule{\textwidth}{\secline}
 }
 
